@@ -1,0 +1,118 @@
+
+.contact {
+    background-color: white;
+    width: 100%;
+}
+
+.con-logo {
+    display: block;
+    margin: auto;
+}
+
+h1.name {
+    position: relative;
+    font-family: 'Nunito';
+    color: #082897;
+    font-size: 26px;
+    font-weight: 1000;
+    font-family: 'Nunito';
+    text-align: center;
+}
+
+h2.address {
+    font-family: 'Nunito';
+    color: #082897;
+    font-size: 16px;
+    font-family: 'Nunito';
+    text-align: center;
+    line-height: 5px;
+}
+
+
+.photos {
+    background-color: lavender;
+    width: 90%;
+    height: 300px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.photos h2 {
+    font-size: 40px;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    color: #082897;
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+.photos p {
+    display: block;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Nunito';
+}
+
+.locations {
+    border-bottom: 2px solid black;
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+.locations h1 {
+    font-size: 20px;
+    font-family: 'Nunito';
+    color: #082897;
+}
+
+.box {
+    width: calc(100% - 30px);
+    height: fit-content;
+    display: block;
+    margin: 20px auto 0;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.box h2 {
+    text-align: left;
+    color: #082897;
+    font-family: 'Nunito';
+    font-size: 14px;
+    text-align: center;
+}
+.box h3 {
+    text-align: left;
+    color: #082897;
+    font-family: 'Nunito';
+    font-size: 14px;
+    text-align: center;
+}
+@media only screen and (min-width:1000px) {
+    .contact {
+        height: auto;
+    }
+    .box {
+        width: 30%;
+    }
+    .photos {
+        width: 60%;
+    }
+    .locations {
+        width: 60%;
+    }
+    .locations h1 {
+        font-size: 28px;
+    }
+}
